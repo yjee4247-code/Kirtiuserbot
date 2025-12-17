@@ -22,7 +22,7 @@ async def must_join_channel(app: Client, msg: Message):
             await msg.reply_photo(
                 photo="https://files.catbox.moe/zuufvl.jpg",
                 caption=(
-                    f"▪️ ʜᴇʏ ғɪʀsᴛ ᴊᴏɪɴ ᴛᴏ ᴍʏ [sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ]({support_link}) "
+                    f"▪️ ʜᴇʏ ғɪʀsᴛ ᴊᴏɪɴ ᴛᴏ ᴍʏ [sᴜᴘᴘᴏʀᴛ ]({support_link}) "
                     f"& [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ]({update_link}), ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ.\n\n"
                     f"✅ ᴀғᴛᴇʀ ᴊᴏɪɴɪɴɢ, sᴇɴᴅ /start ᴀɢᴀɪɴ!"
                 ),

@@ -29,7 +29,7 @@ async def dmraid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Stranger."
+                text = f"Abe Lawde that guy part of TOXIC."
                 await e.reply_text(text)
           else:
               counts = int(Shashank[0])
@@ -47,7 +47,7 @@ async def dmraid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Stranger."
+                text = f"Abe Lawde that guy part of Toxic."
                 await e.reply_text(text)
           else:
               counts = int(Shashank[0])
@@ -72,7 +72,7 @@ async def dmspam(spam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Abe Lawde that guy part of my Toxic."
                 await e.reply_text(text)
           else:
               counts = int(Shashank[0])
@@ -88,7 +88,7 @@ async def dmspam(spam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Stranger."
+                text = f"Abe Lawde that guy part of TOXIC."
                 await e.reply_text(text)
           else:
               counts = int(text[0])

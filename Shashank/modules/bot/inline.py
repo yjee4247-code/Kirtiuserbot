@@ -70,7 +70,7 @@ async def alive_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("──「 sᴛʀᴀɴɢᴇʀ-xᴅ 」──", callback_data="helper")]]
+                [[InlineKeyboardButton("──「 ˹ɪsʜᴀ ꭙ ᴛᴏxɪᴄ˼ 」──", callback_data="helper")]]
             ),
         )
     )
@@ -83,7 +83,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="ʜᴇʟᴘ ᴀʀᴛɪᴄʟᴇ!",
             description="ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ & ʜᴇʟᴘ",
-            thumb_url="https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+            thumb_url="https://files.catbox.moe/1u0lf7.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),

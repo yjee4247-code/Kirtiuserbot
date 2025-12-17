@@ -56,7 +56,7 @@ loop.run_until_complete(start_bot())
 
 async def start_bot():
     await app.start()
-    print("LOG: ғᴏᴜɴᴅᴇᴅ ʙᴏᴛ ᴛᴏᴋᴇɴ. ʙᴏᴏᴛɪɴɢ sᴛʀᴀɴɢᴇʀ.")
+    print("LOG: ғᴏᴜɴᴅᴇᴅ ʙᴏᴛ ᴛᴏᴋᴇɴ. ʙᴏᴏᴛɪɴɢ ᴛᴏxɪᴄ.")
 
     for all_module in ALL_MODULES:
         importlib.import_module("Shashank.modules" + all_module)

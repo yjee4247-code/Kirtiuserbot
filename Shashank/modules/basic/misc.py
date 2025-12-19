@@ -12,20 +12,20 @@ from Shashank.helper.PyroHelpers import ReplyCheck
 from Shashank.modules.help import add_command_help
 from Shashank.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://files.catbox.moe/r58nec.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/qbtaqa.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ✘ 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 **\n\n"
+        f"** 𝐓𝐎𝐗𝐈𝐂 ✘ 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](https://t.me/MASTIWITHFRIENDSXD)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇ**: [Click](https://t.me/StrangerAssociation)\n"
-        f"└• **𝐇ᴏᴛᴇʀ**: [Click](https://t.me/UBclonerbot)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](https://t.me/+mr41Uo_5COViNGM1)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇ**: [Click](https://t.me/isha_updates)\n"
+        f"└• **𝐇ᴏᴛᴇʀ**: [Click](https://t.me/UBhosterbot)"        
     )
 
 @Client.on_message(
@@ -58,12 +58,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Ⰶ ʜᴇʀᴇ ɪs ғʀᴇᴇ sᴛʀᴀɴɢᴇʀ ᴜsᴇʀʙᴏᴛ ʜᴏsᴛᴇʀ: \n\n[𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/UBclonerbot)\n\nⰆ ᴄʟᴏɴᴇ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ & ᴇɴᴊᴏʏ")
+    await message.edit("Ⰶ ʜᴇʀᴇ ɪs ғʀᴇᴇ ᴛᴏxɪᴄ ᴜsᴇʀʙᴏᴛ ʜᴏsᴛᴇʀ: \n\n[𝐓𝐎𝐗𝐈𝐂 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/UBhosterbot)\n\nⰆ ᴄʟᴏɴᴇ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ & ᴇɴᴊᴏʏ")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me | filters.user(SUDO_USER))
 async def creator(bot: Client, message: Message):
-    await message.edit("@SHIVANSHDEVS")
+    await message.edit("@lll_TOXICC_PAPA_lll")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)

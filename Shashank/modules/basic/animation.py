@@ -339,7 +339,7 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [STRANGER IS BEST] ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [TOXIC IS BEST] ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
     if message.forward_from:
         return
@@ -868,7 +868,7 @@ async def helikopter(client: Client, message: Message):
         "╬═╬ \n"
         "╬═╬ \n"
         "╬═╬ \n"
-        "╬═╬ Hallo Stranger :) \n"
+        "╬═╬ Hello Toxic :) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
         "╬═╬/ \\ \n",
@@ -1311,7 +1311,7 @@ add_command_help(
         ["penis", "To display penis art with emoji."],
         ["tembak", "To display shooting art."],
         ["bundir", "To display bundir art."],
-        ["helikopter", "To display helicopter art."],
+        ["helicopter", "To display helicopter art."],
         ["y", "To display art y sj."],
         ["awk", "to display art awkowkowk."],
         ["nah", "To display art love."],

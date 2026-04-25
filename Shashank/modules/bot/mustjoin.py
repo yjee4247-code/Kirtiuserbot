@@ -6,8 +6,8 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from Shashank import app
 
 #--------------------------
-MUST_JOIN1 = "ABOUTT_TOXIC" 
-MUST_JOIN2 = "ISHA_BOTS" 
+MUST_JOIN1 = "lll_BADNAM_BABY_lll" 
+MUST_JOIN2 = "Kirti_update" 
 #--------------------------
 
 @app.on_message(filters.incoming & filters.private, group=-1)
